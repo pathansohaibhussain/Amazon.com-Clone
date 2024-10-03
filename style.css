@@ -401,16 +401,19 @@ footer hr {
     }
 
     .products h2 {
-
         font-size: 23px;
     }
 
+    .products p {
+        text-align: center;
+    }
+
     .product-img {
-        height: 160px;
+        height: 195px;
     }
 
     .box {
-        height: 16rem;
+        height: 18rem;
     }
 
     .box2 h2,
@@ -543,7 +546,7 @@ footer hr {
     }
 
     .products {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -558,9 +561,10 @@ footer hr {
 
 
     .box {
-        width: 90%;
-        margin: 0.625rem 0;
-        height: 335px;
+        background-color: #FFFF;
+        height: 8.5rem;
+        width: 30%;
+        margin-bottom: 0px;
     }
 
     .product-img {
@@ -720,7 +724,7 @@ footer hr {
     }
 
     .products {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -729,20 +733,32 @@ footer hr {
         text-align: center;
     }
 
+    .products h2 {
+        font-size: 8px;
+    }
+
     .products p {
-        margin-top: -5px;
+        font-size: 7px;
+        margin-top: 5px;
+        padding-left: 0;
     }
 
 
     .box {
-        width: 90%;
-        margin: 0.625rem 0;
-        height: 335px;
+        background-color: #FFFF;
+        height: 8.5rem;
+        width: 30.5%;
+        margin-bottom: 0px;
+    }
+
+    .box2 h2,
+    .box4 h2 {
+        font-size: 6px;
     }
 
     .product-img {
-        height: 240px;
-        /* 150px */
+        height: 80px;
+        margin: 0 5px 0 5px;
     }
 
     .first-footer {
@@ -830,5 +846,37 @@ footer hr {
         padding: 0.25rem;
         justify-content: center;
         align-items: center;
+    }
+
+    .box {
+        background-color: #FFFF;
+        height: 8.5rem;
+        width: 31%;
+        margin-bottom: -5px;
+    }
+
+    .products {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .product-img {
+        height: 80px;
+        margin: 0 5px 0 5px;
+    }
+
+    .products h2 {
+        font-size: 8px;
+    }
+
+    .products p {
+        font-size: 7px;
+        margin-top: 5px;
+        padding-left: 0;
+    }
+
+    .box2 h2,
+    .box4 h2 {
+        font-size: 5px;
     }
 }
